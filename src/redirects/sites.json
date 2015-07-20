@@ -1,0 +1,32 @@
+﻿[
+  {
+    "domainName": "frankguinta.com",
+    "url": "http://www.unionleader.com/article/20150515/OPINION01/150519437"
+  },
+  {
+    "domainName": "mt.hn",
+    "url": "http://matthewhancock.com",
+    "includePath": true,
+    "permanent": true
+  },
+  {
+    "domainName": "isbo.red",
+    "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "matthew.pizza",
+    "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "matthewhancock.pizza",
+    "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "mostly.pizza",
+    "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "puh.lease",
+    "url": "http://matthewhancock.com"
+  }
+]
