@@ -28,5 +28,13 @@
   {
     "domainName": "puh.lease",
     "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "fitn.news",
+    "url": "http://matthewhancock.com"
+  },
+  {
+    "domainName": "mesh.news",
+    "url": "http://matthewhancock.com"
   }
 ]
