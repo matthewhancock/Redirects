@@ -29,16 +29,18 @@ namespace redirects {
         }
     }
     public class SiteConfig {
-        private string _domainname;
+        private string _domainname, _url;
         private bool _includePath, _permanent;
 
-        public SiteConfig(string DomainName, bool IncludePath, bool Permanent) {
+        public SiteConfig(string DomainName, bool IncludePath, bool Permanent, string Url) {
             _domainname = DomainName;
             _includePath = IncludePath;
             _permanent = Permanent;
+            _url = Url;
         }
         public string DomainName { get { return _domainname; } }
         public bool IncludePath { get { return _includePath; } }
         public bool Permanent { get { return _permanent; } }
+        public string Url { get { return _url; } }
     }
 }
