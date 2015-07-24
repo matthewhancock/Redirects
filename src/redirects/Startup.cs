@@ -21,7 +21,7 @@ namespace redirects {
             }
             var config = sites.Find((c) => c.DomainName == domainName);
             if (config != null) {
-                var url = config.IncludePath ? config.DomainName + context.Request.Path.ToString() : config.DomainName;
+                var url = config.IncludePath ? config.Url + context.Request.Path.ToString() : config.Url;
                 context.Response.Redirect(url, config.Permanent);
             } else {
                 await context.Response.WriteAsync("Invalid Domain");
